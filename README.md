@@ -9,3 +9,6 @@ Python Django Project
   + Login Page - For Sign in
   + User Dashboard
   + Admin Login - Publish, unpublish images, Realtors info, all site administration
+---
+## [Django](https://www.djangoproject.com/)
+  + Django is a high-level Python Web framework
