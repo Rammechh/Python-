@@ -12,3 +12,5 @@ Python Django Project
 ---
 ## [Django](https://www.djangoproject.com/)
   + Django is a high-level Python Web framework
+  + Used for Web development, Utilities, Automation, Machine Learning, data Analysis
+  + Can use any db's, Post grades (Powerful Relational Database) used in this project.
