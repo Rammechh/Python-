@@ -35,3 +35,4 @@ Python Django Project
   + Install Python in Extension of VS Code
   + Type 'python' in cmd to check.
   + Downloaded Sandbox starter files from course also attached here.
+  + To Run in VS Code => python3 filename.py
