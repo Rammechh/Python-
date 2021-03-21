@@ -43,7 +43,8 @@ Python Django Project
       * '#' Single line Comment, 3 single quotes(''') or 3 double quotes(""") for multi line comment
       * Variables rules same as other language 1) Variable names are case sensitive (name and NAME are different variables) 2) Must start with a letter or an underscore 3) Can have numbers but can not start with one.
 
-  + **Assignments**
+  + **Assignments and Print**
       *  1)) a=1(Int) 2) b=1.5(Float) 3) name='Ram'(String) 4) py_easy=True (Boolean Start with Caps 'T', 'F')
       * Multiple assignment -->  a,b,name,py_easy = (1, 1.5, 'Ram', True)
-      * 
+      * print(a, b, name, py_easy)
+  
