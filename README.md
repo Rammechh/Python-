@@ -36,3 +36,4 @@ Python Django Project
   + Type 'python' in cmd to check.
   + Downloaded Sandbox starter files from course also attached here.
   + To Run in VS Code => python3 filename.py in terminal
+  + Command palette => **Ctrl + Shift + p** select 'Python select Interpreter'
