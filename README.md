@@ -47,4 +47,9 @@ Python Django Project
       *  1)) a=1(Int) 2) b=1.5(Float) 3) name='Ram'(String) 4) py_easy=True (Boolean Start with Caps 'T', 'F')
       * Multiple assignment -->  a,b,name,py_easy = (1, 1.5, 'Ram', True)
       * print(a, b, name, py_easy)
+    
+  + **Basic Math**
+      * x=a+b
+      * **Check Type** => print(type(x)) -> output: <class 'float'>
+      * **Casting** => 1)a=str(a) 2)b=int(b)
   
