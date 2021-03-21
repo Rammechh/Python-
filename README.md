@@ -28,3 +28,10 @@ Python Django Project
   + [Django Deploy Instructions:](https://gist.github.com/bradtraversy/cfa565b879ff1458dba08f423cb01d71)
   + [Original Deploy Article:](https://www.digitalocean.com/community/tutorials/how-to-set-up-django-with-postgres-nginx-and-gunicorn-on-ubuntu-18-04)
   + [Virtual Env Setup Doc:](https://docs.python.org/3/library/venv.html)
+---
+## VS Code
+  + Install VS code
+  + Set Environmental Varibales => View Advanced system setting in pc -> Advanced tab -> Environment Varibales -> Select Path(Edit) add New -> C:\Users\ram75\AppData\Local\Programs\Python\Python39\Scripts and C:\Users\ram75\AppData\Local\Programs\Python\Python39
+  + Install Python in Extension of VS Code
+  + Type 'python' in cmd to check.
+  + Downloaded Sandbox starter files from course also attached here.
