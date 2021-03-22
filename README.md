@@ -63,10 +63,10 @@ Python Django Project
   + **String Formatting**
       * 1) %-formatting --> It is verbose and leads to errors, like not displaying tuples or dictionaries correctly
  ___
-      * name = "Eric"
-      * age = 74
-      * "Hello, %s. You are %s." % (name, age)
-      * Output : 'Hello Eric. You are 74.'
+      * name = "Ram"
+      * age = 23
+      * print("Hello, %s. You are %s." % (name, age))
+      * Output : 'Hello Ram. You are 23.'
  ___
         2) #2: str.format() --> Code using str.format() is much more easily readable than code using %-formatting
  ___
@@ -79,5 +79,10 @@ Python Django Project
       person = {'name': 'Ram', 'age': 23}
       print("Hello, {name}. You are {age}.".format(**person))
       
-      Output : Hello, Ram. You are 23
+      **Output** : Hello, Ram. You are 23
+___
+        3) #3 F or f strings -->Also called “formatted string literals,” f-strings are string literals that have an f at the beginning and curly braces. for better readability
+___
+      print(f"Hello, {name}. You are {age}.")
+      print(F"Hello, {name}. You are {age}.")
 ___
