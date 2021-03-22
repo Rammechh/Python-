@@ -68,5 +68,16 @@ Python Django Project
       * "Hello, %s. You are %s." % (name, age)
       * Output : 'Hello Eric. You are 74.'
  ___
-        
-        
+        2) #2: str.format() --> Code using str.format() is much more easily readable than code using %-formatting
+ ___
+      print("Hello, {}. You are {}.".format(name, age))
+      print("Hello, {1}. You are {0}.".format(age, name))
+ 
+      person = {'name': 'Ram', 'age': 23}
+      print("Hello, {name}. You are {age}.".format(name=person['name'], age=person['age']))
+
+      person = {'name': 'Ram', 'age': 23}
+      print("Hello, {name}. You are {age}.".format(**person))
+      
+      Output : Hello, Ram. You are 23
+___
