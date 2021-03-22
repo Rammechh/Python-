@@ -88,46 +88,46 @@ ___
 ___
       * s="hello World" 
 
-# Capitalize first letter
+### Capitalize first letter
 print(s.capitalize())
 
-# Make all uppercase
+### Make all uppercase
 print(s.upper())
 
-# Make all lower
+### Make all lower
 print(s.lower())
 
-# Swap case
+### Swap case
 print(s.swapcase())
 
-# Get length
+### Get length
 print(len(s))
 
-# Replace
+### Replace
 print(s.replace('world', 'everyone'))
 
-# Count
+### Count
 sub = "h"
 print(s.count(sub))
 
-# Starts with
+### Starts with
 print(s.startswith('hello'))
 
-# Ends with
+### Ends with
 print(s.endswith('d'))
 
-# Split into a list
+### Split into a list
 print(s.split())
 
-# Find position
+### Find position
 print(s.find('r'))
 
-# Is all alphanumeric
+### Is all alphanumeric
 print(s.isalnum())
 
-# Is all alphabetic
+### Is all alphabetic
 print(s.isalpha())
 
-# Is all numeric
+### Is all numeric
 print(s.isnumeric())
 
