@@ -62,9 +62,11 @@ Python Django Project
       
   + **String Formatting**
       * 1) %-formatting --> It is verbose and leads to errors, like not displaying tuples or dictionaries correctly
+ ___
       * name = "Eric"
       * age = 74
       * "Hello, %s. You are %s." % (name, age)
       * Output : 'Hello Eric. You are 74.'
+ ___
         
         
