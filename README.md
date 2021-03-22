@@ -86,3 +86,7 @@ ___
       print(f"Hello, {name}. You are {age}.")
       print(F"Hello, {name}. You are {age}.")
 ___
+      * s="hello World" 
+      * Capitalizing 1st letter: print(s.capitalize())
+      * Full upper case --> print(s.upper())
+      * Full lower case --> print(s.lower())
