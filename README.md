@@ -40,6 +40,7 @@ Python Django Project
 ---
 ## Python Fundamentals
   + **Comments**
+      * Comments do not execute, when you run a program you will not see any indication of the comment there. Comments are in the source code for humans to read, not for computers to execute
       * '#' Single line Comment, 3 single quotes(''') or 3 double quotes(""") for multi line comment
       * Variables rules same as other language 1) Variable names are case sensitive (name and NAME are different variables) 2) Must start with a letter or an underscore 3) Can have numbers but can not start with one.
 
@@ -52,4 +53,18 @@ Python Django Project
       * x=a+b
       * **Check Type** => print(type(x)) -> output: <class 'float'>
       * **Casting** => 1)a=str(a) 2)b=int(b)
-  
+
+  + **String**
+      * name='Ram'
+      * age=23
+      * print('Hi, I am ' +name + ' and my age is' + str(age))
+      * '+' --> Used for concatenation
+      
+  + **String Formatting**
+      * 1) %-formatting --> It is verbose and leads to errors, like not displaying tuples or dictionaries correctly
+      * name = "Eric"
+        >>> age = 74
+        >>> "Hello, %s. You are %s." % (name, age)
+        Output : 'Hello Eric. You are 74.'
+        
+        
