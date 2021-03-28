@@ -203,3 +203,11 @@ if x == y:<br>
 **Output:** 10 is equal to 10 <br>
        10 is equal to 10<br>
   ___
+## Loops
+  +  A for loop is used for iterating over a sequence (that is either a list, a tuple, a dictionary, a set, or a string).
+  ___
+      people = ['John', 'Will', 'Janet', 'Karen']
+
+   ##Simple for loop
+        for person in people:
+          print('Current person: ', person)
