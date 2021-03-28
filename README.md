@@ -254,30 +254,30 @@ if x == y:<br>
   ### Create class
 class User:
   #### Constructor
-  def __init__(self, name, email, age):<br>
-    self.name = name<br>
-    self.email = email<br>
-    self.age = age
+  &nbsp;def __init__(self, name, email, age):<br>
+    &nbsp;&nbsp;self.name = name<br>
+    &nbsp;&nbsp;self.email = email<br>
+    &nbsp;&nbsp;self.age = age
 
-  def greeting(self):<br>
-    return f'My name is {self.name} and I am {self.age}'
+  &nbsp;def greeting(self):<br>
+    &nbsp;&nbsp;return f'My name is {self.name} and I am {self.age}'
   
-  def has_birthday(self):<br>
-    self.age += 1
+  &nbsp;def has_birthday(self):<br>
+    &nbsp;&nbsp;self.age += 1
 
 #### Customer class
 class Customer(User):<br>
-  def __init__(self, name, email, age):<br>
-    self.name = name<br>
-    self.email = email<br>
-    self.age = age<br>
-    self.balance = 0
+  &nbsp;def __init__(self, name, email, age):<br>
+    &nbsp;&nbsp;self.name = name<br>
+    &nbsp;&nbsp;self.email = email<br>
+    &nbsp;&nbsp;self.age = age<br>
+    &nbsp;&nbsp;self.balance = 0
 
-  def set_balance(self, balance):<br>
-    self.balance = balance
+  &nbsp;def set_balance(self, balance):<br>
+    &nbsp;&nbsp;self.balance = balance
 
-  def greeting(self):<br>
-    return f'My name is {self.name} and I am {self.age} and I owe a balance of {self.balance}'
+  &nbsp;def greeting(self):<br>
+    &nbsp;&nbsp;return f'My name is {self.name} and I am {self.age} and I owe a balance of {self.balance}'
 
 #### Init user object
   brad = User('Brad Traversy', 'brad@gmail.com', 37)<br>
