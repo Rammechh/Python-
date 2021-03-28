@@ -136,7 +136,7 @@ print(s.isnumeric())
   + [Lists_In_depth](https://www.codementor.io/@sheena/python-lists-in-depth-lrtmk7w4q)
   + Lists are used to store multiple items in a single variable. Lists are one of 4 built-in data types in Python used to store collections of data, the other 3 are Tuple, Set, and Dictionary, all with different qualities and usage.
   + Index starts from 0 to n-1. To fetch last index can use a[-1].
-  + Slice operator will be helpful a[0:3:1] can be used to fetch values accordingly. [start:end:step] --> [::-1] will fetch elements in reverse order.
+  + Slice operator will be helpful a[0:3:1] can be used to fetch values accordingly. [start: end :step] --> [::-1] will fetch elements in reverse order.
   + **append** adds an element to the end of the list -> l.append('a')
   + **extend** is used to concatenate lists 
       * l=['a'] l.extend([1,2,3,4,5]) print(l) output: ['a', 1, 2, 3, 4, 5]
