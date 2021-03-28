@@ -133,5 +133,5 @@ print(s.isnumeric())
 
 ---
 ## Lists
-  +
+  + [Lists_In_depth](https://www.codementor.io/@sheena/python-lists-in-depth-lrtmk7w4q)
 
