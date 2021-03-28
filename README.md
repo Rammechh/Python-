@@ -170,5 +170,7 @@ def getSum(num1, num2):<br>
    &nbsp;total = num1 + num2<br>
    &nbsp;return total
 
-numSum = getSum(2, 3)
+numSum = getSum(2, 3)<br>
+print(numSum)
   ___
+  + 
