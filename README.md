@@ -212,5 +212,11 @@ if x == y:<br>
    * for person in people:<br>
      &nbsp;print('Current person: ', person)
      
-   * for i in range(len(people)):
+   * for i in range(len(people)):<br>
      &nbsp;print(people(i))
+     
+   * while count <= 10:<br>
+     &nbsp;print('Count: ', count)<br>
+     &nbsp;count += 1
+   ___
+
