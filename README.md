@@ -141,4 +141,7 @@ print(s.isnumeric())
   + **extend** is used to concatenate lists 
       * l=['a'] l.extend([1,2,3,4,5]) print(l) output: ['a', 1, 2, 3, 4, 5]
   + **in** is used to check if an element exists inside a list --> 'a' in l (True),  **not in** does the opposite --> 'b' not in l (True)
+  + **sort()** basically works with the list itself. It modifies the original list in place. The return value is None. l.sort() original list will be changed. print(l.sort(reverse = True) 
+  + **sorted()** works on any iterable that may include list, dictionary and so on. It returns another list and doesn't modify the original list. Sorted(l) original list will not be changed. print(sorted(L, reverse = True))
+  + 
 
