@@ -176,3 +176,7 @@ print(numSum)
   ### Lambda Function
    +  A lambda function is a small anonymous function. 
    +  A lambda function can take any number of arguments, but can only have one expression. Very similar to JS arrow functions
+  ___
+      getSum= lambda num1, num2 : "x"+str(num1+num2)
+      print(getSum(5,8))
+  ____
