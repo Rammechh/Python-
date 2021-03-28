@@ -167,8 +167,8 @@ print(s.isnumeric())
   + In Python, we do not use parentheses and curly brackets, we use indentation with tabs or spaces
   ___
 def getSum(num1, num2):<br>
-   total = num1 + num2<br>
-   return total
+   &emsp;total = num1 + num2
+   >> return total
 
 numSum = getSum(2, 3)
   ___
