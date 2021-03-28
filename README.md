@@ -179,4 +179,5 @@ print(numSum)
   ___
       getSum= lambda num1, num2 : "x"+str(num1+num2)
       print(getSum(5,8))
+      Output: x13
   ____
