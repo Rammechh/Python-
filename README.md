@@ -208,6 +208,9 @@ if x == y:<br>
   ___
       people = ['John', 'Will', 'Janet', 'Karen']
 
-   ## Simple for loop
-   * for person in people:
-      print('Current person: ', person)
+   #### Simple for loop
+   * for person in people:<br>
+     &nbsp;print('Current person: ', person)
+     
+   * for i in range(len(people)):
+     &nbsp;print(people(i))
