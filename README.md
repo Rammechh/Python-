@@ -254,7 +254,7 @@ if x == y:<br>
   ### Create class
 class User:
   #### Constructor
-  &nbsp;def __init__(self, name, email, age):<br>
+  &nbsp;def __ init__(self, name, email, age):<br>
     &nbsp;&nbsp;self.name = name<br>
     &nbsp;&nbsp;self.email = email<br>
     &nbsp;&nbsp;self.age = age
