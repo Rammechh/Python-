@@ -146,4 +146,9 @@ print(s.isnumeric())
   + ReverseList --> l.reverse()
 ---
 ## Tuples
-  +
+  + A Tuple is a collection which is ordered and unchangeable. Allows duplicate members.
+  + Can create using constructor a=tuple((1,2,3)) or a=(1,2,3)
+  + Item deletin is not possibe. del a (will delete tuple)
+---
+## Sets
+  + 
