@@ -151,4 +151,8 @@ print(s.isnumeric())
   + Item deletin is not possibe. del a (will delete tuple)
 ---
 ## Sets
-  + 
+  + A Set is a collection which is unordered and unindexed. No duplicate members. s = {1,2,3}
+  + Since it is unordered, you can't access elements by index.  s[1] -> will throw error ('set' object does not support indexing)
+---
+## Dictionary
+  +
