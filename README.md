@@ -134,4 +134,4 @@ print(s.isnumeric())
 ---
 ## Lists
   + [Lists_In_depth](https://www.codementor.io/@sheena/python-lists-in-depth-lrtmk7w4q)
-
+  + Lists are used to store multiple items in a single variable. Lists are one of 4 built-in data types in Python used to store collections of data, the other 3 are Tuple, Set, and Dictionary, all with different qualities and usage.
