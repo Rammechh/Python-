@@ -196,10 +196,10 @@ print(numSum)
   y = 10
 
 # Simple if
-if x == y:
-    print("{} is equal to {}" .format(x,y))
+if x == y:<br>
+    print("{} is equal to {}" .format(x,y))<br>
     print(f'{x} is equal to {y}')
 
-Output:10 is equal to 10
-       10 is equal to 10
+Output:10 is equal to 10 <br>
+       10 is equal to 10<br>
   ___
