@@ -297,3 +297,30 @@ class Customer(User):<br>
   john.set_balance(500)
 
   print(john.greeting())
+  
+---
+## Files
+  + # Python has functions for creating, reading, updating, and deleting files.
+
+  #### Open a file
+    myFile = open('myfile.txt', 'w')
+
+  #### Get some info
+  print('Name: ', myFile.name)<br>
+  print('Is Closed: ', myFile.closed)<br>
+  print('Opening Mode: ', myFile.mode)
+
+  #### Write to file
+  myFile.write('I love Python')<br>
+  myFile.write(' and JavaScript')<br>
+  myFile.close()
+
+  #### Append to file
+  myFile = open('myfile.txt', 'a')<br>
+  myFile.write(' I also like PHP')<br>
+  myFile.close()
+
+  #### Read from file
+  myFile = open('myfile.txt', 'r+')<br>
+  text = myFile.read()<br>
+  print(text)
