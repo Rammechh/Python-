@@ -165,3 +165,10 @@ print(s.isnumeric())
 ## Functions
   + A function is a block of code which only runs when it is called. 
   + In Python, we do not use parentheses and curly brackets, we use indentation with tabs or spaces
+  ___
+def getSum(num1, num2):
+  total = num1 + num2
+  return total
+
+numSum = getSum(2, 3)
+  ___
