@@ -155,4 +155,13 @@ print(s.isnumeric())
   + Since it is unordered, you can't access elements by index.  s[1] -> will throw error ('set' object does not support indexing)
 ---
 ## Dictionary
-  +
+  + A Dictionary is a collection which is unordered, changeable and indexed. No duplicate members.
+  + Dictionaries map keys to values, You access individual values by key, not by index.
+  + Dictionaries, like lists, are mutable
+  + Using Constructor -> person = dict(first_name='John', last_name='Doe',age=30) or person = {'first_name': 'John', 'last_name': 'Doe', 'age': 30 }
+  + Access keys & values -> print(person.keys()), print(person.values()) 
+  + To get all items -> print(person.items())
+---
+## Functions
+  + A function is a block of code which only runs when it is called. 
+  + In Python, we do not use parentheses and curly brackets, we use indentation with tabs or spaces
