@@ -300,7 +300,7 @@ class Customer(User):<br>
   
 ---
 ## Files
-  + # Python has functions for creating, reading, updating, and deleting files.
+  + Python has functions for creating, reading, updating, and deleting files.
 
   #### Open a file
     myFile = open('myfile.txt', 'w')
@@ -324,3 +324,24 @@ class Customer(User):<br>
   myFile = open('myfile.txt', 'r+')<br>
   text = myFile.read()<br>
   print(text)
+  
+ ---
+## JSON
+  + JSON is commonly used with data APIS. Here how we can parse JSON into a Python dictionary
+  ---
+  import json
+
+  #### Sample JSON
+  userJSON = '{"first_name": "John", "last_name": "Doe", "age": 30}'
+
+  #### Parse to dict
+  user = json.loads(userJSON)
+
+  print(user)<br>
+  print(user['first_name'])
+
+  car = {'make': 'Ford', 'model': 'Mustang', 'year': 1970}
+
+  carJSON = json.dumps(car)
+
+  print(carJSON)
