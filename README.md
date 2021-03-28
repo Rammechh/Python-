@@ -328,6 +328,8 @@ class Customer(User):<br>
  ---
 ## JSON
   + JSON is commonly used with data APIS. Here how we can parse JSON into a Python dictionary
+  + json.loads() --> will convert json to dict
+  + json.dumps() --> will convert dict to json
   ---
   import json
 
@@ -339,7 +341,8 @@ class Customer(User):<br>
 
   print(user)<br>
   print(user['first_name'])
-
+  
+  #### dict to JSON
   car = {'make': 'Ford', 'model': 'Mustang', 'year': 1970}
 
   carJSON = json.dumps(car)
