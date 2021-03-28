@@ -135,3 +135,6 @@ print(s.isnumeric())
 ## Lists
   + [Lists_In_depth](https://www.codementor.io/@sheena/python-lists-in-depth-lrtmk7w4q)
   + Lists are used to store multiple items in a single variable. Lists are one of 4 built-in data types in Python used to store collections of data, the other 3 are Tuple, Set, and Dictionary, all with different qualities and usage.
+  + Index starts from 0 to n-1. To fetch last index can use a[-1].
+  + Slice operator will be helpful a[0:3:1] can be used to fetch values accordingly. [start:end:step] --> [::-1] will fetch last value.
+  + **in** is used to check if an element exists inside a list:, not in does the opposite:
