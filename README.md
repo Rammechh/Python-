@@ -144,4 +144,6 @@ print(s.isnumeric())
   + **sort()** basically works with the list itself. It modifies the original list in place. The return value is None. l.sort() original list will be changed. print(l.sort(reverse = True) 
   + **sorted()** works on any iterable that may include list, dictionary and so on. It returns another list and doesn't modify the original list. Sorted(l) original list will not be changed. print(sorted(L, reverse = True))
   + ReverseList --> l.reverse()
-
+---
+## Tuples
+  +
