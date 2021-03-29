@@ -353,3 +353,7 @@ class Customer(User):<br>
 # Project Specs
   + Bootstrap themes and project requirements are attached.
   + Creating virtual Environment setup
+      * create new folder BTRE_PROJECT
+      *  **python -m venv ./venv**  -> creating virtual environment will create new venv file containing files
+      *  **Source ./venv/bin/activate** -> for Mac
+      *  **./venv/Scripts/activate.bat**
