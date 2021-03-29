@@ -1,7 +1,7 @@
 # Python
 Python Django Project
 # Property Searching Project [Udemy Course link](https://cognizant.udemy.com/course/python-django-dev-to-deployment/l)
-## Functionalities
+# Functionalities
   + Home - Latest Listings in Database will be listed in front page, Search Listing
   + About - Realtors are added, Seller of the month
   + Featured Listing - All property details, realtors for listing
@@ -348,3 +348,8 @@ class Customer(User):<br>
   carJSON = json.dumps(car)
 
   print(carJSON)
+  
+---
+# Project Specs
+  + Bootstrap themes and project requirements are attached.
+  + Creating virtual Environment setup
